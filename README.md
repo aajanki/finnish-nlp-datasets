@@ -4,7 +4,7 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 English summary: Open Finnish NLP datasets
 
-## Annotoimattomia tekstikokoelmia
+## Tekstikokoelmia (self-supervised learning)
 
 [Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnut, jne. Lisenssi: CC BY 4.0
 
@@ -18,13 +18,15 @@ English summary: Open Finnish NLP datasets
 
 [Vanhat aikakauslehdet](http://urn.fi/urn:nbn:fi:lb-2015051201): Kansalliskirjaston digitoimia vanhoja, ennen vuotta 1875 julkaistuja suomen- ja ruotsinkielisiä aikakauslehtiartikkeleita. Lisenssi: CC BY 4.0
 
+[Finnish OpenSubtitles 2017](http://urn.fi/urn:nbn:fi:lb-2019110802): Elokuvien tekstityksiä opensubtitles.org-sivustolta. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä. Lisenssi CC BY
+
 [Ylen eduskuntavaalikoneiden vastaukset 2011](https://yle.fi/aihe/artikkeli/2011/05/16/vuoden-2011-vaalikonetiedot-nyt-avoimena-datana), [2015](https://yle.fi/uutiset/3-7869597) ja [2019](https://yle.fi/uutiset/3-10725384): Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin, vapaateksti ja kategoriset vastaukset. Lisenssi: CC BY NC 3.0
 
 [Ylilauta](http://urn.fi/urn:nbn:fi:lb-2016101210): Ylilauta-keskustelupalstan viestit vuosilta 2012-2014. Lisenssi: CC BY NC
 
 [Reddit](https://files.pushshift.io/reddit/comments/): Reddit-keskustelualustan kaikki viestit vuoteen 2019 asti. Suomenkielistä keskustelua on esimerkiksi r/Suomi-keskustelualueella. Lisenssi: ?
 
-## Syntaktisesti tai semanttisesti annotoituja aineistoja
+## Annotoituja aineistoja (supervised learning)
 
 [Universal dependencies Finnish TDT](https://github.com/UniversalDependencies/UD_Finnish-TDT/tree/master): Kieliopillisesti jäsennettyjä dokumentteja. Lisenssi: CC BY-SA 4.0
 
