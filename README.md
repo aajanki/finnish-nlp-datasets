@@ -1,8 +1,8 @@
 # Avoimia suomenkielisiä NLP-tekstiaineistoja
 
-Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämiseen ja testaamiseen. Sisältää myös Creative commons non-commercial -lisensoituja (CC NC) aineistoja vaikka ne eivät olekaan oikeastaan [avoimia](https://opendefinition.org/).
+English summary: A list of open Finnish NLP datasets
 
-English summary: Open Finnish NLP datasets
+Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämiseen ja testaamiseen. Sisältää myös Creative Commons non-commercial -lisensoituja (CC NC) aineistoja vaikka ne eivät oikeastaan olekaan [avoimia](https://opendefinition.org/).
 
 ## Tekstikokoelmia (self-supervised learning)
 
@@ -17,6 +17,8 @@ English summary: Open Finnish NLP datasets
 [Project Gutenberg](https://www.gutenberg.org/browse/languages/fi): Vanhoja kirjoja, joiden tekijänoikeudet ovat rauenneet. Lisenssi: Tyypillisesti public domain, tarkista jokaisen yksittäisen kirjan kohdalla
 
 [Vanhat aikakauslehdet](http://urn.fi/urn:nbn:fi:lb-2015051201): Kansalliskirjaston digitoimia vanhoja, ennen vuotta 1875 julkaistuja suomen- ja ruotsinkielisiä aikakauslehtiartikkeleita. Lisenssi: CC BY 4.0
+
+[Iltapäivälehtien uutisotsikoita](https://github.com/nkrusch/fi-news-corpus): Iltapäivälehden verkossa välillä 2018-2020 julkaistujen uutisten otsikot ja tiivistelmät. Lisenssi: MIT
 
 [Finnish OpenSubtitles 2017](http://urn.fi/urn:nbn:fi:lb-2019110802): Elokuvien tekstityksiä opensubtitles.org-sivustolta. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä. Lisenssi CC BY
 
@@ -45,3 +47,5 @@ English summary: Open Finnish NLP datasets
 [EuroParl](http://www.statmt.org/europarl/). Euroopan parlamentin kokousten puheita ammattikääntäjien suomeksi ja muille EU:n virallisille kielille kääntämänä. Lisenssi: "We are not aware of any copyright restrictions of the material. If you use this data in your research, please contact pkoehn@inf.ed.ac.uk."
 
 [WMT en-fi testset 2016](https://github.com/Helsinki-NLP/WMT16-test-enfi/tree/v1.0) ja [2017](https://github.com/Helsinki-NLP/WMT17-test-enfi): 6000 lausetta (3000 kumpanakin vuonna). Ammattikääntäjien suomeksi ja englanniksi kääntämät. Lisenssi: CC BY 4.0
+
+[WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix): Wikipediasta koneellisesti etsittyjä rinnakkaisia lauseita 1620 kieliparille, mukaan lukien suomeksi. Lisenssi: CC BY-SA
