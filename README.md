@@ -6,9 +6,9 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 ## Tekstikokoelmia (self-supervised learning)
 
-[Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnut, jne. Lisenssi: CC BY 4.0
+[Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnot, jne. Lisenssi: CC BY 4.0
 
-[Suomenkielinen Wikipedia 2017](http://urn.fi/urn:nbn:fi:lb-2019110803): Suomenkielisen Wikipedia-artikkelien tekstit 1.1.2018. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän kehittämää dependenssijäsennintä. Lisenssi: CC BY 4.0
+[Suomenkielinen Wikipedia 2017](http://urn.fi/urn:nbn:fi:lb-2019110803): Suomenkielisten Wikipedia-artikkelien tekstit 1.1.2018. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän kehittämää dependenssijäsennintä. Lisenssi: CC BY 4.0
 
 [Wikipedia-dumpit](https://dumps.wikimedia.org/backup-index.html): Wikipedian kaikki artikkelit Wiki markup -muodossa. Päivittyy kuukausittain. Lisenssi: CC-BY-SA, GNU Free Documentation License
 
@@ -18,7 +18,7 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Vanhat aikakauslehdet](http://urn.fi/urn:nbn:fi:lb-2015051201): Kansalliskirjaston digitoimia vanhoja, ennen vuotta 1875 julkaistuja suomen- ja ruotsinkielisiä aikakauslehtiartikkeleita. Lisenssi: CC BY 4.0
 
-[Iltapäivälehtien uutisotsikoita](https://github.com/nkrusch/fi-news-corpus): Iltapäivälehden verkossa välillä 2018-2020 julkaistujen uutisten otsikot ja tiivistelmät. Lisenssi: MIT
+[Iltapäivälehtien uutisotsikoita](https://github.com/nkrusch/fi-news-corpus): Iltapäivälehden verkkosivulla vuosien 2018-2020 välillä julkaistujen uutisten otsikot ja tiivistelmät. Lisenssi: MIT
 
 [Finnish OpenSubtitles 2017](http://urn.fi/urn:nbn:fi:lb-2019110802): Elokuvien tekstityksiä opensubtitles.org-sivustolta. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä. Lisenssi CC BY
 
@@ -48,4 +48,4 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [WMT en-fi testset 2016](https://github.com/Helsinki-NLP/WMT16-test-enfi/tree/v1.0) ja [2017](https://github.com/Helsinki-NLP/WMT17-test-enfi): 6000 lausetta (3000 kumpanakin vuonna). Ammattikääntäjien suomeksi ja englanniksi kääntämät. Lisenssi: CC BY 4.0
 
-[WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix): Wikipediasta koneellisesti etsittyjä rinnakkaisia lauseita 1620 kieliparille, mukaan lukien suomeksi. Lisenssi: CC BY-SA
+[WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix): Wikipediasta koneellisesti etsittyjä erikielisiä, mutta samaa tarkoittavia lauseita. 1620 kieliparia, mukaan lukien suomeksi. Lisenssi: CC BY-SA
