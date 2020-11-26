@@ -6,23 +6,31 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 ## Tekstikokoelmia (self-supervised learning)
 
-[Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnot, jne. Lisenssi: CC BY 4.0
-
 [Suomenkielinen Wikipedia 2017](http://urn.fi/urn:nbn:fi:lb-2019110803): Suomenkielisten Wikipedia-artikkelien tekstit 1.1.2018. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän kehittämää dependenssijäsennintä. Lisenssi: CC BY 4.0
 
 [Wikipedia-dumpit](https://dumps.wikimedia.org/backup-index.html): Wikipedian kaikki artikkelit Wiki markup -muodossa. Päivittyy kuukausittain. Lisenssi: CC-BY-SA, GNU Free Documentation License
 
 [Common Crawl](https://commoncrawl.org/the-data/): Avoin, jatkuvasti päivittyvä hakurobotin keräämä koko julkisen webin sisältö. Suomenkieliset sivustot tunnistettu automaattisen kielentunnistuksen perusteella. [Käyttöehdot](https://commoncrawl.org/terms-of-use/)
 
+### Politiikkaan liittyviä teksikokoelmia
+
+[Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnot, jne. Lisenssi: CC BY 4.0
+
+[Ylen eduskuntavaalikoneiden vastaukset 2011](https://yle.fi/aihe/artikkeli/2011/05/16/vuoden-2011-vaalikonetiedot-nyt-avoimena-datana), [2015](https://yle.fi/uutiset/3-7869597) ja [2019](https://yle.fi/uutiset/3-10725384): Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin, vapaateksti ja kategoriset vastaukset. Lisenssi: CC BY NC 3.0
+
+### Kirja, elokuva ja muita mediasta syntyviä aineistoja
+
 [Project Gutenberg](https://www.gutenberg.org/browse/languages/fi): Vanhoja kirjoja, joiden tekijänoikeudet ovat rauenneet. Lisenssi: Tyypillisesti public domain, tarkista jokaisen yksittäisen kirjan kohdalla
+
+[Finnish OpenSubtitles 2017](http://urn.fi/urn:nbn:fi:lb-2019110802): Elokuvien tekstityksiä opensubtitles.org-sivustolta. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä. Lisenssi CC BY
+
+### Uutismedian tekstiaineistoja
 
 [Vanhat aikakauslehdet](http://urn.fi/urn:nbn:fi:lb-2015051201): Kansalliskirjaston digitoimia vanhoja, ennen vuotta 1875 julkaistuja suomen- ja ruotsinkielisiä aikakauslehtiartikkeleita. Lisenssi: CC BY 4.0
 
 [Iltapäivälehtien uutisotsikoita](https://github.com/nkrusch/fi-news-corpus): Iltapäivälehden verkkosivulla vuosien 2018-2020 välillä julkaistujen uutisten otsikot ja tiivistelmät. Lisenssi: MIT
 
-[Finnish OpenSubtitles 2017](http://urn.fi/urn:nbn:fi:lb-2019110802): Elokuvien tekstityksiä opensubtitles.org-sivustolta. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä. Lisenssi CC BY
-
-[Ylen eduskuntavaalikoneiden vastaukset 2011](https://yle.fi/aihe/artikkeli/2011/05/16/vuoden-2011-vaalikonetiedot-nyt-avoimena-datana), [2015](https://yle.fi/uutiset/3-7869597) ja [2019](https://yle.fi/uutiset/3-10725384): Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin, vapaateksti ja kategoriset vastaukset. Lisenssi: CC BY NC 3.0
+### Käyttäjien luomaa sisältöä 
 
 [Ylilauta](http://urn.fi/urn:nbn:fi:lb-2016101210): Ylilauta-keskustelupalstan viestit vuosilta 2012-2014. Lisenssi: CC BY NC
 
