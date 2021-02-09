@@ -50,6 +50,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Opusparcus](http://urn.fi/urn:nbn:fi:lb-2018021221): Samaa tarkoittavien lauseiden (parafraasit) kokoelma. Suomeksi ja viidellä muulla kielellä. Lauseet ovat peräisin elokuvien ja TV-sarjojen tekstityksiä sisältävästä OpenSubtitles2016-kokoelmasta. Lisenssi: CC BY NC
 
+[ScandiSent](https://github.com/timpal0l/ScandiSent): Sentimenttianalyysi. Asiakkaiden arvioita verkkokaupoista. Arviot on luokitelut kahteen ryhmään, positiivisiksi ja negatiivisiksi.
+
 ## Konekäännösaineistoja
 
 [EuroParl](http://www.statmt.org/europarl/). Euroopan parlamentin kokousten puheita ammattikääntäjien suomeksi ja muille EU:n virallisille kielille kääntämänä. Lisenssi: "We are not aware of any copyright restrictions of the material. If you use this data in your research, please contact pkoehn@inf.ed.ac.uk."
