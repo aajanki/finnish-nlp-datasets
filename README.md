@@ -54,6 +54,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 ## Konekäännösaineistoja
 
+[Paracrawl](https://www.paracrawl.eu/). Yli 7 miljoonaa lauseparia suomeksi ja englanniksi monikielisiltä webbi-sivustoilta. Lisenssi: CC0
+
 [EuroParl](http://www.statmt.org/europarl/). Euroopan parlamentin kokousten puheita ammattikääntäjien suomeksi ja muille EU:n virallisille kielille kääntämänä. Lisenssi: "We are not aware of any copyright restrictions of the material. If you use this data in your research, please contact pkoehn@inf.ed.ac.uk."
 
 [WMT en-fi testset 2016](https://github.com/Helsinki-NLP/WMT16-test-enfi/tree/v1.0) ja [2017](https://github.com/Helsinki-NLP/WMT17-test-enfi): 6000 lausetta (3000 kumpanakin vuonna). Ammattikääntäjien suomeksi ja englanniksi kääntämät. Lisenssi: CC BY 4.0
