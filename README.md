@@ -12,6 +12,10 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Common Crawl](https://commoncrawl.org/the-data/): Avoin, jatkuvasti päivittyvä hakurobotin keräämä koko julkisen webin sisältö. Suomenkieliset sivustot tunnistettu automaattisen kielentunnistuksen perusteella. [Käyttöehdot](https://commoncrawl.org/terms-of-use/)
 
+[OSCAR](https://oscar-corpus.com/): Common Crawlin aineiston siivottu ja deduplikoitu versio. Lisenssi: CC0 ("no rights reserved")
+
+[CC-100](http://data.statmt.org/cc-100/): Toinen Common Crawlista edelleenjalostettu aineisto, kielentunnistusta ja siivousta parannettu. Lisenssi: "No claims of intellectual property are made on the work of preparation of the corpus."
+
 ### Politiikkaan liittyviä tekstikokoelmia
 
 [Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnot, jne. Lisenssi: CC BY 4.0
