@@ -34,6 +34,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Iltapäivälehtien uutisotsikoita](https://github.com/nkrusch/fi-news-corpus): Iltapäivälehden verkkosivulla vuosien 2018-2020 välillä julkaistujen uutisten otsikot ja tiivistelmät. Lisenssi: MIT
 
+[News Crawl](http://data.statmt.org/news-crawl/README): Uutisartikkeleista poimittuja lauseita (lauseiden järjestys sekoitettu) [suomeksi](http://data.statmt.org/news-crawl/fi/) ja noin 60 muulla kielellä vuosilta 2014-2020. Lisenssi: CC0
+
 ### Käyttäjien luomaa sisältöä 
 
 [Ylilauta](http://urn.fi/urn:nbn:fi:lb-2016101210): Ylilauta-keskustelupalstan viestit vuosilta 2012-2014. Lisenssi: CC BY NC
