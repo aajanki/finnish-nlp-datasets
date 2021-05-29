@@ -20,7 +20,9 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnot, jne. Lisenssi: CC BY 4.0
 
-[Ylen eduskuntavaalikoneiden vastaukset 2011](https://yle.fi/aihe/artikkeli/2011/05/16/vuoden-2011-vaalikonetiedot-nyt-avoimena-datana), [2015](https://yle.fi/uutiset/3-7869597) ja [2019](https://yle.fi/uutiset/3-10725384): Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin, vapaateksti ja kategoriset vastaukset. Lisenssi: CC BY NC 3.0
+[Ylen eduskuntavaalikoneiden vastaukset 2011](https://yle.fi/aihe/artikkeli/2011/05/16/vuoden-2011-vaalikonetiedot-nyt-avoimena-datana), [2015](https://yle.fi/uutiset/3-7869597) ja [2019](https://yle.fi/uutiset/3-10725384): Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin ja avoimet tekstivastaukset. Lisenssi: CC BY NC 3.0
+
+[Ylen kuntavaalikoneiden vastaukset 2012](https://yle.fi/uutiset/3-6331306), [2017](https://yle.fi/uutiset/3-9526290) ja [2021](https://github.com/raspi/scrapy-yle-kuntavaalit2021/releases): Ehdokkaiden vastaukset Ylen kuntavaalikoneiden kysymyksiin, vaalilupaukset ja avoimet tekstivastaukset. Lisenssi CC-BY-SA
 
 ### Kirja, elokuva ja muita mediasta syntyviä aineistoja
 
