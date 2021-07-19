@@ -50,7 +50,7 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [ScandiSent](https://github.com/timpal0l/ScandiSent): Sentimenttianalyysi. Asiakkaiden arvioita verkkokaupoista. Arviot on luokitelut kahteen ryhmään, positiivisiksi ja negatiivisiksi.
 
-## Named entity regocnization (NER)
+## Named-entity recognition (NER)
 
 [TurkuONE](https://github.com/TurkuNLP/turku-one): Useita erilaisia aiheita käsitteleviä dokumentteja, joihin on merkitty 18 eri entiteettityypiä. Lisenssi: CC BY-SA 3.0 ja 4.0, CC BY-ND-NC 1.0 (lähdeaineistosta riippuen)
 
