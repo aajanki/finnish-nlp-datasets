@@ -44,21 +44,29 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Reddit](https://files.pushshift.io/reddit/comments/): Reddit-keskustelualustan kaikki viestit vuoteen 2019 asti. Suomenkielistä keskustelua on esimerkiksi r/Suomi-keskustelualueella. Lisenssi: ?
 
-## Annotoituja aineistoja (supervised learning)
-
-[Universal dependencies Finnish TDT](https://github.com/UniversalDependencies/UD_Finnish-TDT/tree/master): Kieliopillisesti jäsennettyjä dokumentteja. Lisenssi: CC BY-SA 4.0
-
-[Parallel Universal Dependencies (PUD) treebanks](https://github.com/UniversalDependencies/UD_Finnish-PUD/tree/master): 1000 kieliopillisesti jäsennettyä lausetta. Lisenssi: CC BY-SA 4.0
-
-[Universal dependencies FinnTreeBank 1](https://github.com/UniversalDependencies/UD_Finnish-FTB/tree/master): Kieliopillisesti jäsennettyjä lauseita. Lisenssi: CC BY 4.0
+## Lausetasolla annotoituja aineistoja
 
 [Eduskunta-vkk](https://github.com/aajanki/eduskunta-vkk): Lauseluokitteluaineisto. Perustuu ministerien vastauksiin kansanedustajien kirjallisiin kysymyksiin. Lisenssi: CC BY 4.0
 
-[FiNER](https://github.com/mpsilfve/finer-data): Uutisartikkeleita, joihin on käsin merkitty entiteetit (named entity recognition, NER). Lisenssi: CC BY-ND-NC 1.0 (Digitoday-aineisto), CC BY-SA 3.0 (Wikipedia-aineisto)
+[ScandiSent](https://github.com/timpal0l/ScandiSent): Sentimenttianalyysi. Asiakkaiden arvioita verkkokaupoista. Arviot on luokitelut kahteen ryhmään, positiivisiksi ja negatiivisiksi.
+
+## Named entity regocnization (NER)
+
+[TurkuONE](https://github.com/TurkuNLP/turku-one): Useita erilaisia aiheita käsitteleviä dokumentteja, joihin on merkitty 18 eri entiteettityypiä. Lisenssi: CC BY-SA 3.0 ja 4.0, CC BY-ND-NC 1.0 (lähdeaineistosta riippuen)
+
+[FiNER](https://github.com/mpsilfve/finer-data): Uutis- ja Wikipedia-artikkeleita, joihin on käsin merkitty kuusi entiteettityyppiä (organisaatio, paikka, henkilö, tuote, tapahtuma, aika). Lisenssi: CC BY-ND-NC 1.0 (Digitoday-aineisto), CC BY-SA 3.0 (Wikipedia-aineisto)
+
+## Kieliopillisesti jäsennettyjä dokumentteja
+
+[Universal dependencies Finnish TDT](https://github.com/UniversalDependencies/UD_Finnish-TDT/tree/master): Kieliopillisesti jäsennettyjä dokumentteja. Lisenssi: CC BY-SA 4.0
+
+[Parallel Universal Dependencies (PUD) treebanks](https://github.com/UniversalDependencies/UD_Finnish-PUD/tree/master): 1000 kieliopillisesti jäsennettyä lauseita. Lisenssi: CC BY-SA 4.0
+
+[Universal dependencies FinnTreeBank 1](https://github.com/UniversalDependencies/UD_Finnish-FTB/tree/master): Kieliopillisesti jäsennettyjä lauseita. Lisenssi: CC BY 4.0
+
+## Parafraasit
 
 [Opusparcus](http://urn.fi/urn:nbn:fi:lb-2018021221): Samaa tarkoittavien lauseiden (parafraasit) kokoelma. Suomeksi ja viidellä muulla kielellä. Lauseet ovat peräisin elokuvien ja TV-sarjojen tekstityksiä sisältävästä OpenSubtitles2016-kokoelmasta. Lisenssi: CC BY NC
-
-[ScandiSent](https://github.com/timpal0l/ScandiSent): Sentimenttianalyysi. Asiakkaiden arvioita verkkokaupoista. Arviot on luokitelut kahteen ryhmään, positiivisiksi ja negatiivisiksi.
 
 ## Konekäännösaineistoja
 
