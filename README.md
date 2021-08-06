@@ -52,7 +52,9 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 ## Named-entity recognition (NER)
 
-[TurkuONE](https://github.com/TurkuNLP/turku-one): Useita erilaisia aiheita käsitteleviä dokumentteja, joihin on merkitty 18 eri entiteettityypiä. Lisenssi: CC BY-SA 3.0 ja 4.0, CC BY-ND-NC 1.0 (lähdeaineistosta riippuen)
+[Turku NER corpus](https://github.com/TurkuNLP/turku-ner-corpus): Useita aiheita käsitteleviä dokumenttja (UD-Finnish-TDT), joihin on merkitty kuusi entiteettityyppiä (organisaatio, paikka, henkilö, tuote, tapahtuma, aika). Lisenssi: CC BY-SA 4.0
+
+[TurkuONE](https://github.com/TurkuNLP/turku-one): Useita erilaisia aiheita käsitteleviä dokumentteja, joihin on merkitty 18 eri entiteettityypiä (OntoNotes-yhteensopiva luokittelu). Lisenssi: CC BY-SA 3.0 ja 4.0, CC BY-ND-NC 1.0 (lähdeaineistosta riippuen)
 
 [FiNER](https://github.com/mpsilfve/finer-data): Uutis- ja Wikipedia-artikkeleita, joihin on käsin merkitty kuusi entiteettityyppiä (organisaatio, paikka, henkilö, tuote, tapahtuma, aika). Lisenssi: CC BY-ND-NC 1.0 (Digitoday-aineisto), CC BY-SA 3.0 (Wikipedia-aineisto)
 
@@ -67,6 +69,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 ## Parafraasit
 
 [Opusparcus](http://urn.fi/urn:nbn:fi:lb-2018021221): Samaa tarkoittavien lauseiden (parafraasit) kokoelma. Suomeksi ja viidellä muulla kielellä. Lauseet ovat peräisin elokuvien ja TV-sarjojen tekstityksiä sisältävästä OpenSubtitles2016-kokoelmasta. Lisenssi: CC BY NC
+
+[Turku paraphrase corpus](https://github.com/TurkuNLP/Turku-paraphrase-corpus): Lisenssi: ?
 
 ## Konekäännösaineistoja
 
