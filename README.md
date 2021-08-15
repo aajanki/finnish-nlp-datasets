@@ -22,13 +22,13 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Ylen eduskuntavaalikoneiden vastaukset 2011](https://yle.fi/aihe/artikkeli/2011/05/16/vuoden-2011-vaalikonetiedot-nyt-avoimena-datana), [2015](https://yle.fi/uutiset/3-7869597) ja [2019](https://yle.fi/uutiset/3-10725384): Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin ja avoimet tekstivastaukset. Lisenssi: CC BY NC 3.0
 
-[Ylen kuntavaalikoneiden vastaukset 2012](https://yle.fi/uutiset/3-6331306), [2017](https://yle.fi/uutiset/3-9526290) ja [2021](https://github.com/raspi/scrapy-yle-kuntavaalit2021/releases): Ehdokkaiden vastaukset Ylen kuntavaalikoneiden kysymyksiin, vaalilupaukset ja avoimet tekstivastaukset. Lisenssi CC-BY-SA
+[Ylen kuntavaalikoneiden vastaukset 2012](https://yle.fi/uutiset/3-6331306), [2017](https://yle.fi/uutiset/3-9526290) ja [2021](https://github.com/raspi/scrapy-yle-kuntavaalit2021/releases): Ehdokkaiden vastaukset Ylen kuntavaalikoneiden kysymyksiin, vaalilupaukset ja avoimet tekstivastaukset. Lisenssi: CC-BY-SA
 
 ### Kirja, elokuva ja muita mediasta syntyviä aineistoja
 
 [Project Gutenberg](https://www.gutenberg.org/browse/languages/fi): Vanhoja kirjoja, joiden tekijänoikeudet ovat rauenneet. Lisenssi: Tyypillisesti public domain, tarkista jokaisen yksittäisen kirjan kohdalla
 
-[Finnish OpenSubtitles 2017](http://urn.fi/urn:nbn:fi:lb-2019110802): Elokuvien tekstityksiä opensubtitles.org-sivustolta. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä. Lisenssi CC BY
+[Finnish OpenSubtitles 2017](http://urn.fi/urn:nbn:fi:lb-2019110802): Elokuvien tekstityksiä opensubtitles.org-sivustolta. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä. Lisenssi: CC BY
 
 ### Uutismedian tekstiaineistoja
 
@@ -73,6 +73,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 [Turku paraphrase corpus](https://github.com/TurkuNLP/Turku-paraphrase-corpus): Lisenssi: ?
 
 ## Konekäännösaineistoja
+
+[OPUS](https://opus.nlpl.eu/): Useita aineistoja, joissa on sama lause suomeksi ja muilla kielillä. Kerätty automaattisesti monikielisiltä nettisivuilta tai muista käännettyjä tekstejä sisältävistä lähteistä. Avoimia aineistoja, tarkista jokaisen aineiston tarkka lisenssi erikseen.
 
 [Paracrawl](https://www.paracrawl.eu/). Yli 7 miljoonaa lauseparia suomeksi ja englanniksi monikielisiltä webbi-sivustoilta. Lisenssi: CC0
 
