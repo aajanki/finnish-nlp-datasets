@@ -70,7 +70,7 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Opusparcus](http://urn.fi/urn:nbn:fi:lb-2018021221): Samaa tarkoittavien lauseiden (parafraasit) kokoelma. Suomeksi ja viidellä muulla kielellä. Lauseet ovat peräisin elokuvien ja TV-sarjojen tekstityksiä sisältävästä OpenSubtitles2016-kokoelmasta. Lisenssi: CC BY NC
 
-[Turku paraphrase corpus](https://github.com/TurkuNLP/Turku-paraphrase-corpus): Lisenssi: ?
+[Turku paraphrase corpus](https://turkunlp.org/paraphrase.html): Käsin annotoitu 100 000 parafraasin kokoelma. Tekstinpätkät on koottu TV-sarjojen tekstityksistä, uutisotsikoista, nettikeskusteluista ja muista kirjoituksista. Lisenssi: CC BY-SA 4.0
 
 ## Konekäännösaineistoja
 
