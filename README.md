@@ -16,6 +16,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [CC-100](http://data.statmt.org/cc-100/): Toinen Common Crawlista edelleenjalostettu aineisto, kielentunnistusta ja siivousta parannettu. Lisenssi: "No claims of intellectual property are made on the work of preparation of the corpus."
 
+[mc4_fi_cleaned](https://huggingface.co/datasets/Finnish-NLP/mc4_fi_cleaned): Kolmas Common Crawliin perustuva suomenkielinen aineisto. Lisenssi: Common Crawl -käyttöehdot, datasetin julkaisjat eivät aseta lisäehtoja käytölle.
+
 ### Politiikkaan liittyviä tekstikokoelmia
 
 [Eduskunnan avoin data](https://avoindata.eduskunta.fi/#/fi/home): Useita valtiopäiväasiakirjoja, esimerkiksi hallituksen esitykset, asiantuntijalausunnot, jne. Lisenssi: CC BY 4.0
