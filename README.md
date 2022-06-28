@@ -8,7 +8,7 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Suomenkielinen Wikipedia 2017](http://urn.fi/urn:nbn:fi:lb-2019110803): Suomenkielisten Wikipedia-artikkelien tekstit 1.1.2018. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän kehittämää dependenssijäsennintä. Lisenssi: CC BY 4.0
 
-[Wikipedia-dumpit](https://dumps.wikimedia.org/backup-index.html): Wikipedian kaikki artikkelit Wiki markup -muodossa. Päivittyy kuukausittain. Lisenssi: CC-BY-SA, GNU Free Documentation License
+[Wikipedia-dumpit](https://dumps.wikimedia.org/backup-index.html): Wikipedian kaikki artikkelit Wiki markup -muodossa. [Hugging Facen latausskriptillä](https://huggingface.co/datasets/wikipedia) saa ladattua puhtaan tekstisisällön ilman markup-koodeja. Päivittyy kuukausittain. Lisenssi: CC-BY-SA, GNU Free Documentation License
 
 [Common Crawl](https://commoncrawl.org/the-data/): Avoin, jatkuvasti päivittyvä hakurobotin keräämä koko julkisen webin sisältö. Suomenkieliset sivustot tunnistettu automaattisen kielentunnistuksen perusteella. [Käyttöehdot](https://commoncrawl.org/terms-of-use/)
 
@@ -16,7 +16,9 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [CC-100](http://data.statmt.org/cc-100/): Toinen Common Crawlista edelleenjalostettu aineisto, kielentunnistusta ja siivousta parannettu. Lisenssi: "No claims of intellectual property are made on the work of preparation of the corpus."
 
-[mc4_fi_cleaned](https://huggingface.co/datasets/Finnish-NLP/mc4_fi_cleaned): Kolmas Common Crawliin perustuva suomenkielinen aineisto. Lisenssi: Common Crawl -käyttöehdot, datasetin julkaisjat eivät aseta lisäehtoja käytölle.
+[mc4](https://huggingface.co/datasets/mc4): Kolmas Common Crawliin perustuva aineisto. Lisenssi: [ODC-BY](https://opendatacommons.org/licenses/by/1-0/) ja [Common Crawlin käyttöehdot](https://commoncrawl.org/terms-of-use/)
+
+[mc4_fi_cleaned](https://huggingface.co/datasets/Finnish-NLP/mc4_fi_cleaned): Edellisestä tuntemattomalla tavalla jatkokäsitelty versio.
 
 ### Politiikkaan liittyviä tekstikokoelmia
 
