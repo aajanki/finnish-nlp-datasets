@@ -18,7 +18,7 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [mc4](https://huggingface.co/datasets/mc4): Kolmas Common Crawliin perustuva aineisto. Lisenssi: [ODC-BY](https://opendatacommons.org/licenses/by/1-0/) ja [Common Crawlin käyttöehdot](https://commoncrawl.org/terms-of-use/)
 
-[mc4_fi_cleaned](https://huggingface.co/datasets/Finnish-NLP/mc4_fi_cleaned): Edellisestä tuntemattomalla tavalla jatkokäsitelty versio.
+[mc4_fi_cleaned](https://huggingface.co/datasets/Finnish-NLP/mc4_fi_cleaned): Edellisestä tuntemattomalla tavalla jatkokäsitelty versio. Sisältää vain suomenkieliset dokumentit.
 
 ### Politiikkaan liittyviä tekstikokoelmia
 
@@ -42,6 +42,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [News Crawl](http://data.statmt.org/news-crawl/README): Uutisartikkeleista poimittuja lauseita (lauseiden järjestys sekoitettu) [suomeksi](http://data.statmt.org/news-crawl/fi/) ja noin 60 muulla kielellä vuosilta 2014-2020. Lisenssi: CC0
 
+[Lauseita Ylen uutisarkistosta 2011-2018](http://urn.fi/urn:nbn:fi:lb-2020021107) ja [selkouutisista](http://urn.fi/urn:nbn:fi:lb-2020021113): Ylen uutisarkiston sisältö lausetasolla sekoitettuna. Lisenssi: CC BY
+
 ### Käyttäjien luomaa sisältöä 
 
 [Ylilauta](http://urn.fi/urn:nbn:fi:lb-2016101210): Ylilauta-keskustelupalstan viestit vuosilta 2012-2014. Lisenssi: CC BY NC
@@ -51,6 +53,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 ## Lausetasolla annotoituja aineistoja
 
 [Eduskunta-vkk](https://github.com/aajanki/eduskunta-vkk): Lauseluokitteluaineisto. Perustuu ministerien vastauksiin kansanedustajien kirjallisiin kysymyksiin. Lisenssi: CC BY 4.0
+
+[FinnSentiment](http://urn.fi/urn:nbn:fi:lb-2020111001): Sentimenttiannotoituja lauseita. Sosiaalisesta mediasta poimittuja lauseita, jotka kolme ihmistä on toisistaan riippumattomasti luokitellut positiivisiksi, neutraaleiksi tai negatiiviseksi. Lisenssi: CC BY
 
 [ScandiSent](https://github.com/timpal0l/ScandiSent): Sentimenttianalyysi. Asiakkaiden arvioita verkkokaupoista. Arviot on luokitelut kahteen ryhmään, positiivisiksi ja negatiivisiksi.
 
