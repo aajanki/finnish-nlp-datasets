@@ -50,6 +50,8 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 
 [Reddit](https://files.pushshift.io/reddit/comments/): Reddit-keskustelualustan kaikki viestit vuoteen 2019 asti. Suomenkielistä keskustelua on esimerkiksi r/Suomi-keskustelualueella. Lisenssi: ?
 
+[FinChat](https://github.com/aalto-speech/FinChat): 86 chat-keskustelua arkisista aiheista. Lisenssi: CC-BY-NC
+
 ## Lausetasolla annotoituja aineistoja
 
 [Eduskunta-vkk](https://github.com/aajanki/eduskunta-vkk): Lauseluokitteluaineisto. Perustuu ministerien vastauksiin kansanedustajien kirjallisiin kysymyksiin. Lisenssi: CC BY 4.0
@@ -91,3 +93,5 @@ Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämi
 [WMT en-fi testset 2016](https://github.com/Helsinki-NLP/WMT16-test-enfi/tree/v1.0) ja [2017](https://github.com/Helsinki-NLP/WMT17-test-enfi): 6000 lausetta (3000 kumpanakin vuonna). Ammattikääntäjien suomeksi ja englanniksi kääntämät. Lisenssi: CC BY 4.0
 
 [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix): Wikipediasta koneellisesti etsittyjä erikielisiä, mutta samaa tarkoittavia lauseita. 1620 kieliparia, mukaan lukien suomeksi. Lisenssi: CC BY-SA
+
+[Fiskmö](https://version.helsinki.fi/Helsinki-NLP/fiskmo): Lausepareja suomeksi ja ruotsiksi. [Fiskmö](https://blogs.helsinki.fi/fiskmo-project/?lang=fi)-projektin julkiset aineistot. Lisenssi: CC-BY 4.0 ja  CC-BY-NC-SA 4.0 (vaihtelee aineistosta riippuen)
