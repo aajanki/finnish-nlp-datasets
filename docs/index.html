@@ -1,0 +1,91 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Avoimia suomenkielisiä NLP-tekstiaineistoja</title>
+    <style type="text/css">
+      body {
+	  color: #303030;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+      }
+      h4 {
+	  font-size: 1.2rem;
+	  font-weight: 500;
+	  margin-top: 0;
+	  margin-bottom: 0.6rem;
+      }
+      .dataset-container {
+	  display: block;
+	  border: solid 1px;
+	  border-radius: 0.25rem;
+	  padding: 0.6rem;
+	  margin-bottom: 1rem;
+      }
+      .description {
+	  line-height: 1.2rem;
+	  text-decoration-line: none;
+	  color: #303030;
+      }
+      .dataset-container a:hover {
+	  text-decoration-line: underline;
+      }
+      .license {
+	  color: #1f9d55;
+	  background-color: #e3fcec;
+	  border-radius: 0.25rem;
+	  padding-left: 0.3rem;
+	  padding-right: 0.3rem;
+	  text-decoration-line: none;
+      }
+      .wrapper {
+	  max-width: 55rem;
+	  margin: 0 auto;
+      }
+      .anchor {
+	  color: lightgray;
+	  padding-left: 0.2rem;
+	  text-decoration-line: none;
+      }
+      .anchor:hover {
+	  text-decoration-line: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1>Avoimia suomenkielisiä NLP-tekstiaineistoja</h1>
+
+      <p>Avoimia suomenkielisiä tekstiaineistoja kieliteknologian menetelmien kehittämiseen ja testaamiseen.</p>
+
+      <p>English summary: A list of open Finnish NLP datasets.</p>
+
+      {% for collection in site.data.opendata %}
+      <h2 id={{ collection.id }}>{{ collection.title }}
+	<a class="anchor" href="#{{ collection.id}}">#</a>
+      </h2>
+      {{ collection.note | markdownify }}
+
+      {% for dataset in collection.datasets %}
+      <div class="dataset-container">
+	<a class="description" href="{{ dataset.url }}">
+	  <h4>{{ dataset.title }}</h4>
+	  <span>{{ dataset.description }}</span>
+	</a>
+	{% for license in dataset.license %}
+	<a class="license" href="{{ license.url }}">{{ license.short_name }}</a>
+	{% endfor %}
+	{{ dataset.license_note }}
+	{{ dataset.accessing | markdownify }}
+      </div>
+      {% endfor %}
+      {% endfor %}
+
+      <hr>
+
+      <p>Puuttuuko sivulta jokin aineisto? Raportoi puute <a href="https://github.com/aajanki/finnish-nlp-datasets/issues">GitHubissa</a> tai <a href="mailto:antti.ajanki@iki.fi">sähköpostilla</a>.
+    </main>
+  </body>
+</html>

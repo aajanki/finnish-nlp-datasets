@@ -1,0 +1,316 @@
+- title: "Laajoja tekstikokoelmia"
+  id: tekstikokoelmat
+  datasets:
+    - title: Wikipedia
+      url: https://dumps.wikimedia.org/backup-index.html
+      description: "Wikipedian kaikki artikkelit Wiki markup -muodossa. Päivittyy kuukausittain."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA"
+          url: https://creativecommons.org/licenses/by-sa/2.0/
+        - short_name: "GNU\u00A0Free\u00A0Documentation\u00A0License"
+          url: https://www.gnu.org/licenses/fdl-1.3.html
+      accessing: "[Hugging Facen latausskriptillä](https://huggingface.co/datasets/wikipedia) saa ladattua puhtaan tekstisisällön ilman markup-koodeja."
+
+    - title: Suomenkielinen Wikipedia 2017
+      url: http://urn.fi/urn:nbn:fi:lb-2019110803
+      description: "Suomenkielisten Wikipedia-artikkelien tekstit 1.1.2018. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän kehittämää dependenssijäsennintä."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: Common Crawl
+      url: https://commoncrawl.org/the-data/
+      description: "Avoin, jatkuvasti päivittyvä hakurobotin keräämä koko julkisen webin sisältö. Suomenkieliset sivustot tunnistettu automaattisen kielentunnistuksen perusteella."
+      license:
+        - short_name: "Common\u00A0Crawl\u00A0Terms\u00A0of\u00A0Use"
+          url: https://commoncrawl.org/terms-of-use/
+
+    - title: OSCAR
+      url: https://oscar-corpus.com/
+      description: "Common Crawlin aineiston siivottu ja deduplikoitu versio."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: CC-100
+      url: https://data.statmt.org/cc-100/
+      description: "Toinen Common Crawlista edelleenjalostettu aineisto, kielentunnistusta ja siivousta parannettu. Lisenssi: \"No claims of intellectual property are made on the work of preparation of the corpus.\""
+
+    - title: mc4
+      url: https://huggingface.co/datasets/mc4
+      description: "Kolmas Common Crawliin perustuva aineisto."
+      license:
+        - short_name: "ODC\u2011BY"
+          url: https://opendatacommons.org/licenses/by/1-0/
+        - short_name: "Common\u00A0Crawlin\u00A0käyttöehdot"
+          url: https://commoncrawl.org/terms-of-use/
+
+    - title: mc4_fi_cleaned
+      url: https://huggingface.co/datasets/Finnish-NLP/mc4_fi_cleaned
+      description: "Edellisestä tuntemattomalla tavalla jatkokäsitelty versio. Sisältää vain suomenkieliset dokumentit."
+
+- title: "Politiikkaan liittyviä tekstikokoelmia"
+  id: politiikka
+  datasets:
+    - title: Eduskunnan avoin data
+      url: https://avoindata.eduskunta.fi/#/fi/home
+      description: "Eduskuntatyön tuloksena syntyvät valtiopäiväasiakirjat, esimerkiksi hallituksen esitykset ja asiantuntijalausunnot, yms. Kaikki valtiopäiväasiakirjat kokoteksteinä ovat saatavilla vuoden 1990 valtiopäivistä lähtien, osa jo vuodesta 1980 lähtien. Lisäksi valtiopäivävuosilta 1907–2000 koko painetun valtiopäiväasiakirjasarjan sisältö on saatavilla digitoituina."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: Ylen eduskuntavaalikone 2015
+      url: https://yle.fi/uutiset/3-7869597
+      description: "Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin ja avoimet tekstivastaukset."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A01.0"
+          url: https://creativecommons.org/licenses/by-sa/1.0/fi/
+
+    - title: Ylen eduskuntavaalikone 2019
+      url: https://yle.fi/uutiset/3-10725384
+      description: "Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin ja avoimet tekstivastaukset. Lisenssi: \"Avoin data on jaossa csv-tiedostona Creative Commons -lisenssillä. Julkaistuista tiedoista saa luoda uusia julkaisuja ja palveluita kun vain lähde mainitaan.\""
+
+    - title: Ylen kuntavaalikone 2012
+      url: https://yle.fi/uutiset/3-6331306
+      description: "Ehdokkaiden vastaukset Ylen kuntavaalikoneiden kysymyksiin, vaalilupaukset ja avoimet tekstivastaukset."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A01.0"
+          url: https://creativecommons.org/licenses/by-sa/1.0/fi/
+
+    - title: Ylen kuntavaalikone 2017
+      url: https://yle.fi/uutiset/3-9526290
+      description: "Ehdokkaiden vastaukset Ylen kuntavaalikoneiden kysymyksiin, vaalilupaukset ja avoimet tekstivastaukset."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A01.0"
+          url: https://creativecommons.org/licenses/by-sa/1.0/fi/
+
+    - title: Ylen kuntavaalikone 2021
+      url: https://github.com/raspi/scrapy-yle-kuntavaalit2021/releases
+      description: "Ohjelma Ylen kuntavaalikoneen 2021 vastausten lataamiseen Ylen nettisivuilta. Yle ei ole julkaissut aineistoa ladattavana pakettina kuten edellisinä vuosina."
+      license:
+        - short_name: "Apache\u00A02.0"
+          url: https://github.com/raspi/scrapy-kuntavaalit2021-yle/blob/main/LICENSE
+
+- title: "Kirjoista, elokuvista ja muista medioista syntyviä aineistoja"
+  id: kirjat
+  datasets:
+    - title: Project Gutenberg
+      url: https://www.gutenberg.org/browse/languages/fi
+      description: "Vanhoja kirjoja, joiden tekijänoikeudet ovat rauenneet. Lisenssi: Tyypillisesti public domain, tarkista jokaisen yksittäisen kirjan kohdalla erikseen."
+
+    - title: Finnish OpenSubtitles 2017
+      url: https://urn.fi/urn:nbn:fi:lb-2019110802
+      description: "Aineisto kattaa Opensubtitles.org sivuston jakamat elokuvien ja tv-ohjelmien suomenkieliset tekstitykset. Aineisto on johdannainen monikielisestä Opensubtitles2018 korpuksesta. Aineisto on jaettu lähteisiin ja lauseisiin. Lauseet on morfosyntaktisesti jäsennetty käyttäen Turku BioNLP -ryhmän dependenssijäsennintä."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+- title: Uutismedian tekstiaineistoja
+  id: uutiset
+  datasets:
+    - title: Vanhat aikakauslehdet
+      url: https://urn.fi/urn:nbn:fi:lb-2015051201
+      description: "Kansalliskirjaston digitoimia vanhoja, ennen vuotta 1875 julkaistuja suomen- ja ruotsinkielisiä aikakauslehtiartikkeleita."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: Iltapäivälehtien uutisotsikoita
+      url: https://github.com/nkrusch/fi-news-corpus
+      description: "Iltapäivälehden verkkosivulla julkaistujen uutisten otsikot ja tiivistelmät alkaen vuodesta 2018."
+      license:
+        - short_name: MIT
+          url: https://mit-license.org/
+
+    - title: News Crawl
+      url: https://data.statmt.org/news-crawl/README
+      description: "Uutisartikkeleista poimittuja lauseita (lauseiden järjestys sekoitettu) suomeksi ja noin 60 muulla kielellä vuosilta 2014-2021."
+      license:
+        - short_name: CC0
+          url: https://creativecommons.org/share-your-work/public-domain/cc0/
+
+    - title: Lauseita Ylen uutisarkistosta 2011-2018
+      url: https://urn.fi/urn:nbn:fi:lb-2020021107
+      description: "Ylen uutisarkiston sisältö lausetasolla sekoitettuna."
+      license:
+        - short_name: "CC\u00A0BY"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: Lauseita Ylen selkouutisista 2011-2018
+      url: https://urn.fi/urn:nbn:fi:lb-2020021113
+      description: "Ylen selkouutisten arkiston sisältö lausetasolla sekoitettuna."
+      license:
+        - short_name: "CC\u00A0BY"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+- title: "Lausetasolla annotoituja aineistoja"
+  id: lauseet
+  datasets:
+    - title: Lauseet ministerien vastauksista kirjallisiin kysymyksiin
+      url: https://github.com/aajanki/eduskunta-vkk
+      description: "Lauseluokitteluaineisto. Perustuu ministerien vastauksiin kansanedustajien kirjallisiin kysymyksiin."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: FinnSentiment
+      url: https://urn.fi/urn:nbn:fi:lb-2020111001
+      description: "Sentimenttiannotoituja lauseita. Sosiaalisesta mediasta poimittuja lauseita, jotka kolme ihmistä on toisistaan riippumattomasti luokitellut positiivisiksi, neutraaleiksi tai negatiiviseksi."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+- title: "Named-entity recognition (NER)"
+  id: ner
+  datasets:
+    - title: Turku NER corpus
+      url: https://github.com/TurkuNLP/turku-ner-corpus
+      description: "Useita aiheita käsitteleviä dokumenttja (UD-Finnish-TDT), joihin on merkitty kuusi entiteettityyppiä (organisaatio, paikka, henkilö, tuote, tapahtuma, aika)."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+
+    - title: TurkuONE
+      url: https://github.com/TurkuNLP/turku-one
+      description: "Useita erilaisia aiheita käsitteleviä dokumentteja, joihin on merkitty 18 eri entiteettityypiä (OntoNotes-yhteensopiva luokittelu)."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A03.0"
+          url: https://creativecommons.org/licenses/by-sa/3.0/
+        - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+        - short_name: "CC\u00A0BY\u2011ND\u2011NC\u00A01.0"
+          url: https://creativecommons.org/licenses/by-nd-nc/1.0/
+      license_note: "(lähdeaineistosta riippuen)"
+
+    - title: FiNER
+      url: https://github.com/mpsilfve/finer-data
+      description: "Uutis- ja Wikipedia-artikkeleita, joihin on käsin merkitty kuusi entiteettityyppiä (organisaatio, paikka, henkilö, tuote, tapahtuma, aika)."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A03.0"
+          url: https://creativecommons.org/licenses/by-sa/3.0/
+        - short_name: "CC\u00A0BY\u2011ND\u2011NC\u00A01.0"
+          url: https://creativecommons.org/licenses/by-nd-nc/1.0/
+      license_note: "(lähdeaineistosta riippuen)"
+
+- title: Kieliopillisesti jäsennettyjä dokumentteja
+  id: puupankit
+  datasets:
+    - title: Universal dependencies Finnish TDT
+      url: https://github.com/UniversalDependencies/UD_Finnish-TDT/tree/master
+      description: "Kieliopillisesti jäsennettyjä dokumentteja."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+
+    - title: Parallel Universal Dependencies (PUD) treebanks
+      url: https://github.com/UniversalDependencies/UD_Finnish-PUD/tree/master
+      description: "1000 kieliopillisesti jäsennettyä lausetta."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+
+    - title: Universal dependencies FinnTreeBank 1
+      url: https://github.com/UniversalDependencies/UD_Finnish-FTB/tree/master
+      description: "Kieliopillisesti jäsennettyjä lauseita."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+- title: Parafraasit (saman asian ilmeiseminen eri tavoin)
+  id: parafraasit
+  datasets:
+    - title: Turku paraphrase corpus
+      url: https://turkunlp.org/paraphrase.html
+      description: "Käsin annotoitu 100 000 parafraasin kokoelma. Tekstinpätkät on koottu TV-sarjojen tekstityksistä, uutisotsikoista, nettikeskusteluista ja muista kirjoituksista."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+
+- title: Konekäännösaineistoja
+  id: konekaannos
+  datasets:
+    - title: OPUS
+      url: https://opus.nlpl.eu/
+      description: "Useita aineistoja, joissa on sama lause suomeksi ja muilla kielillä. Kerätty automaattisesti monikielisiltä nettisivuilta tai muista käännettyjä tekstejä sisältävistä lähteistä. Avoimia aineistoja, tarkista jokaisen aineiston tarkka lisenssi erikseen."
+
+    - title: Paracrawl
+      url: https://www.paracrawl.eu/
+      description: "Yli 7 miljoonaa lauseparia suomeksi ja englanniksi monikielisiltä webbi-sivustoilta."
+      license:
+        - short_name: CC0
+          url: https://creativecommons.org/share-your-work/public-domain/cc0/
+
+    - title: EuroParl
+      url: http://www.statmt.org/europarl/
+      description: "Euroopan parlamentin kokousten puheita ammattikääntäjien suomeksi ja muille EU:n virallisille kielille kääntämänä. Lisenssi: \"We are not aware of any copyright restrictions of the material. If you use this data in your research, please contact pkoehn@inf.ed.ac.uk.\""
+
+    - title: WMT en-fi testset 2016
+      url: https://github.com/Helsinki-NLP/WMT16-test-enfi/tree/v1.0
+      description: "3000 ammattikääntäjien suomeksi ja englanniksi kääntämää lausetta."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: WMT en-fi testset 2017
+      url: https://github.com/Helsinki-NLP/WMT17-test-enfi
+      description: "3000 ammattikääntäjien suomeksi ja englanniksi kääntämää lausetta."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: WikiMatrix
+      url: https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix
+      description: "Wikipediasta koneellisesti etsittyjä erikielisiä, mutta samaa tarkoittavia lauseita. 1620 kieliparia, mukaan lukien suomeksi."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+
+    - title: Fiskmö
+      url: https://version.helsinki.fi/Helsinki-NLP/fiskmo
+      description: "Lausepareja suomeksi ja ruotsiksi. Fiskmö-projektin julkiset aineistot."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+        - short_name: "CC\u00A0BY\u2011NC\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+      license_note: (vaihtelee aineistosta riippuen)
+
+- title: Rajatun käyttöoikeuden aineistot
+  id: rajatut
+  note: "Kaikkien ladattavissa olevat aineistot, joiden käytölle on kuitenkin asetettu rajoituksia esimerkiksi kaupallisen hyödyntämisen suhteen."
+  datasets:
+    - title: Ylilauta
+      url: https://urn.fi/urn:nbn:fi:lb-2016101210
+      description: "Ylilauta-keskustelupalstan viestit vuosilta 2012-2014."
+      license:
+        - short_name: "CC\u00A0BY\u2011NC"
+          url: https://creativecommons.org/licenses/by-nc/4.0/
+
+    - title: Reddit
+      url: https://files.pushshift.io/reddit/comments/
+      description: "Reddit-keskustelualustan kaikki viestit vuodesta 2005 alkaen. Suomenkielistä keskustelua on esimerkiksi r/Suomi-keskustelualueella. Lisenssi epäselvä."
+
+    - title: FinChat
+      url: https://github.com/aalto-speech/FinChat
+      description: "86 chat-keskustelua arkisista aiheista. Keskustelijoina yliopiston opiskelijoita, henkilökuntaa ja yläkoulun oppilaita."
+      license:
+        - short_name: "CC\u00A0BY\u2011NC"
+          url: https://creativecommons.org/licenses/by-nc/4.0/
+
+    - title: Ylen eduskuntavaalikone 2011
+      url: https://yle.fi/aihe/artikkeli/2011/05/16/vuoden-2011-vaalikonetiedot-nyt-avoimena-datana
+      description: "Ehdokkaiden vastaukset Ylen eduskuntavaalikoneiden kysymyksiin ja avoimet tekstivastaukset."
+      license:
+        - short_name: "CC\u00A0BY\u2011NC\u2011SA\u00A03.0"
+          url: https://creativecommons.org/licenses/by-nc-sa/3.0
+
+    - title: ScandiSent
+      url: https://github.com/timpal0l/ScandiSent
+      description: "Sentimenttianalyysi. Asiakkaiden arvioita verkkokaupoista. Arviot on luokitelut kahteen ryhmään, positiivisiksi ja negatiivisiksi. Lisenssi epäselvä."
+
+    - title: Opusparcus
+      url: https://urn.fi/urn:nbn:fi:lb-2018021221
+      description: "Samaa tarkoittavien lauseiden (parafraasit) kokoelma. Suomeksi ja viidellä muulla kielellä. Lauseet ovat peräisin elokuvien ja TV-sarjojen tekstityksiä sisältävästä OpenSubtitles2016-kokoelmasta."
+      license:
+        - short_name: "CC\u00A0BY\u2011NC"
+          url: https://creativecommons.org/licenses/by-nc/4.0/
