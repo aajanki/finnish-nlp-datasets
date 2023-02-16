@@ -94,6 +94,13 @@
 - title: "Kirjoista, elokuvista ja muista medioista syntyviä aineistoja"
   id: kirjat
   datasets:
+    - title: Projekti Lönnrot
+      url: http://lonnrot.net/
+      description: "EU:n ns. 70+ säädösten mukaan tekijänoikeuksista vapautuneitta suomen- ja ruotsinkielisiä e-kirjoja kaikkien vapaasti saatavilla. Teokset ovat yleensä aina tarjolla puhtaina tekstitiedostoina."
+      license:
+        - short_name: "public\u00A0domain"
+          url: https://fi.wikipedia.org/wiki/Public_domain
+
     - title: Project Gutenberg
       url: https://www.gutenberg.org/browse/languages/fi
       description: "Vanhoja kirjoja, joiden tekijänoikeudet ovat rauenneet. Lisenssi: Tyypillisesti public domain, tarkista jokaisen yksittäisen kirjan kohdalla erikseen."
@@ -196,22 +203,29 @@
   id: puupankit
   datasets:
     - title: Universal dependencies Finnish TDT
-      url: https://github.com/UniversalDependencies/UD_Finnish-TDT/tree/master
-      description: "Kieliopillisesti jäsennettyjä dokumentteja."
+      url: https://github.com/UniversalDependencies/UD_Finnish-TDT
+      description: "Kieliopillisesti jäsennettyjä dokumentteja UD-muodossa."
       license:
         - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
           url: https://creativecommons.org/licenses/by-sa/4.0/
 
     - title: Parallel Universal Dependencies (PUD) treebanks
-      url: https://github.com/UniversalDependencies/UD_Finnish-PUD/tree/master
-      description: "1000 kieliopillisesti jäsennettyä lausetta."
+      url: https://github.com/UniversalDependencies/UD_Finnish-PUD
+      description: "1000 kieliopillisesti jäsennettyä lausetta UD-muodossa."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+
+    - title: Universal dependencies Finnish OOD
+      url: https://github.com/UniversalDependencies/UD_Finnish-OOD
+      description: "Kieliopillisesti jäsennettyjä dokumentteja UD-muodossa. Tekstit ovat lääketieteellisiä potilaskertomuksia, runoja, sosiaalisen median kommentteja ja satunnaisia webbisivuja."
       license:
         - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
           url: https://creativecommons.org/licenses/by-sa/4.0/
 
     - title: Universal dependencies FinnTreeBank 1
       url: https://github.com/UniversalDependencies/UD_Finnish-FTB/tree/master
-      description: "Kieliopillisesti jäsennettyjä lauseita."
+      description: "Kieliopillisesti jäsennettyjä lauseita UD-muodossa."
       license:
         - short_name: "CC\u00A0BY\u00A04.0"
           url: https://creativecommons.org/licenses/by/4.0/
