@@ -150,7 +150,7 @@
         - short_name: "CC\u00A0BY"
           url: https://creativecommons.org/licenses/by/4.0/
 
-- title: "Lausetasolla annotoituja aineistoja"
+- title: "Lause- tai dokumenttitasolla annotoituja aineistoja"
   id: lauseet
   datasets:
     - title: Lauseet ministerien vastauksista kirjallisiin kysymyksiin
@@ -163,6 +163,13 @@
     - title: FinnSentiment
       url: https://urn.fi/urn:nbn:fi:lb-2020111001
       description: "Sentimenttiannotoituja lauseita. Sosiaalisesta mediasta poimittuja lauseita, jotka kolme ihmistä on toisistaan riippumattomasti luokitellut positiivisiksi, neutraaleiksi tai negatiiviseksi."
+      license:
+        - short_name: "CC\u00A0BY\u00A04.0"
+          url: https://creativecommons.org/licenses/by/4.0/
+
+    - title: FinCORE
+      url: https://github.com/TurkuNLP/FinCORE
+      description: "Noin 2000 netistä poimittua dokumenttia, jotka on käsin luokiteltu kahdeksaan tekstityylilajiin (ml. tiedottava viestintä, vaikuttamaan pyrkivä viestintä, mielipidekirjoitus, jne.)."
       license:
         - short_name: "CC\u00A0BY\u00A04.0"
           url: https://creativecommons.org/licenses/by/4.0/
