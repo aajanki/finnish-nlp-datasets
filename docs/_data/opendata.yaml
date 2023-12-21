@@ -313,6 +313,13 @@
         - short_name: "CC\u00A0BY\u2011SA\u00A03.0"
           url: https://creativecommons.org/licenses/by-sa/3.0/
 
+    - title: The Belebele Benchmark for Massively Multilingual NLU Evaluation
+      url: https://github.com/facebookresearch/belebele
+      description: "Luetun ymmärrystä mittaamaan tarkoitettuja monivalintakysymyksiä. 488 tekstipätkää joista jokaisesta 1-2 kysymstä ja 4 vastausvaihtoehtoa kysymystä kohden (1 vaihtoehdoista on oikea). 122 kielellä (mukaanlukien suomeksi)."
+      license:
+        - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
+          url: https://creativecommons.org/licenses/by-sa/4.0/
+
 - title: Rajatun käyttöoikeuden aineistot
   id: rajatut
   note: "Kaikkien ladattavissa olevat aineistot, joiden käytölle on kuitenkin asetettu rajoituksia esimerkiksi kaupallisen hyödyntämisen suhteen."
