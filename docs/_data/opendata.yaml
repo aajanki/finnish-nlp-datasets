@@ -320,6 +320,13 @@
         - short_name: "CC\u00A0BY\u2011SA\u00A04.0"
           url: https://creativecommons.org/licenses/by-sa/4.0/
 
+    - title: Aya Dataset
+      url: https://huggingface.co/datasets/CohereForAI/aya_dataset
+      description: "Reilut 700 kysymys-vastaus-paria suomeksi (ja useilla muilla kielillä). Aineisto on kerätty joukkoistetusti vapaaehtoisilta natiivipuhujilta."
+      license:
+        - short_name: "Apache\u00A02.0"
+          url: https://opensource.org/license/apache-2-0
+
 - title: Rajatun käyttöoikeuden aineistot
   id: rajatut
   note: "Kaikkien ladattavissa olevat aineistot, joiden käytölle on kuitenkin asetettu rajoituksia esimerkiksi kaupallisen hyödyntämisen suhteen."
