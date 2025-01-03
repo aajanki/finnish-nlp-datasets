@@ -37,7 +37,7 @@
       description: "Toinen Common Crawlista edelleenjalostettu aineisto, kielentunnistusta ja siivousta parannettu. Lisenssi: \"No claims of intellectual property are made on the work of preparation of the corpus.\""
 
     - title: mc4
-      url: https://huggingface.co/datasets/mc4
+      url: https://huggingface.co/datasets/allenai/c4
       description: "Kolmas Common Crawliin perustuva aineisto."
       license:
         - short_name: "ODC\u2011BY"
