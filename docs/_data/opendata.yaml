@@ -45,9 +45,13 @@
         - short_name: "Common\u00A0Crawlin\u00A0käyttöehdot"
           url: https://commoncrawl.org/terms-of-use/
 
-    - title: mc4_fi_cleaned
-      url: https://huggingface.co/datasets/Finnish-NLP/mc4_fi_cleaned
-      description: "Edellisestä tuntemattomalla tavalla jatkokäsitelty versio. Sisältää vain suomenkieliset dokumentit."
+    - title: HPLT Datasets v2
+      url: https://hplt-project.org/datasets/v2.0
+      description: 'Webbisivuistoilta kerättyä aineistoa, lähteinä Internet Archive ja Common Crawl. Aineisto on saatavilla kielittäin. Kielentunnistus on tehty erikseen jokaiselle tekstikappaleelle. Suositus on käyttää "cleaned"-varianttia, josta on suodatettu pois huonolaatuinen sisältö.'
+      license:
+        - short_name: CC0
+          url: https://creativecommons.org/share-your-work/public-domain/cc0/
+      accessing: "Ladattavissa myös Huggingfacelta: [HPLT/HPLT2.0_cleaned](https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned)"
 
 - title: "Politiikkaan liittyviä tekstikokoelmia"
   id: politiikka
